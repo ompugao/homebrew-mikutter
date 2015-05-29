@@ -16,5 +16,11 @@ brew tap mzyy94/mikutter
 brew install mikutter
 ```
 
+# How to run
+
+```sh
+mikutter
+```
+
 # License
 No license.
