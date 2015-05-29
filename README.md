@@ -12,7 +12,7 @@ mikutter 3.2.2
 # How to install
 
 ```sh
-brew tap mzyy94/mikutter-brew
+brew tap mzyy94/mikutter
 brew install mikutter
 ```
 
