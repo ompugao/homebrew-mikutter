@@ -1,7 +1,7 @@
 class Mikutter < Formula
   homepage "http://mikutter.hachune.net/"
-  url "http://mikutter.hachune.net/bin/mikutter.3.2.3.tar.gz"
-  sha256 "7e4337d38a4a778dc001c5d9a315ef3f9646eec3c386e9686abc7f58a9e5f8f5"
+  url "http://mikutter.hachune.net/bin/mikutter.3.2.4.tar.gz"
+  sha256 "94244272996504888dc0019a08ca69d5c1221e11ca519392463be1641d14c78f"
 
   # Require ruby 1.9.3 or above
   depends_on "ruby" if /\d\.\d(\.\d)?/.match(`ruby --version 2>&1`).to_s < "1.9.3"
