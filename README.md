@@ -16,6 +16,13 @@ brew tap mzyy94/mikutter
 brew install mikutter
 ```
 
+# How to update
+
+```sh
+brew update
+brew upgrade mikutter
+```
+
 # How to run
 
 ```sh
