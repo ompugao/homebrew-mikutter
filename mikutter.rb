@@ -34,7 +34,7 @@ class Mikutter < Formula
     system "mikutter", "--help"
 
     # Test whether the GUI/X11 will launch completely
-	### NOTE: This test can't work fine. ###
+    ### NOTE: This test can't work fine. ###
     #system "mikutter", "-d"
     #sleep 20 # waiting for mikutter to launch
     #system "pkill", "-f", "mikutter"
