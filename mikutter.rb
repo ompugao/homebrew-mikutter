@@ -3,8 +3,8 @@ class Mikutter < Formula
   url "http://mikutter.hachune.net/bin/mikutter.3.2.4.tar.gz"
   sha256 "94244272996504888dc0019a08ca69d5c1221e11ca519392463be1641d14c78f"
 
-  # Require ruby 1.9.3 or above
-  depends_on "ruby" if /\d\.\d(\.\d)?/.match(`ruby --version 2>&1`).to_s < "1.9.3"
+  # Require ruby 2.0.0 or above
+  depends_on "ruby" if /\d\.\d(\.\d)?/.match(`ruby --version 2>&1`).to_s < "2.0.0"
   depends_on "gtk+"
   depends_on :x11
 
