@@ -3,7 +3,7 @@
 maintained by mzyy94
 
 # Current version
-mikutter 3.2.5
+mikutter 3.2.6
 
 # Requirement
 
